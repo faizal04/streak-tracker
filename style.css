@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* 
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+} */
+
+.taskList {
+    min-height: 1rem;
+    border: solid 2px rgba(187, 175, 175, 0.349);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Margarine", sans-serif;
+
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+/* 
+button.reset {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+} */
+
+ul {
+    position: relative;
+}
+
+#taskList li {
+    position: relative;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li h6 {
+    width: 4rem;
+}
+
+
+/* .btn {
+    display: flex;
+    align-items: center;
+    min-height: 2rem;
+    min-width: 4rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: rgb(28, 255, 7);
+    background: #000000d0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(191, 14, 14, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+} */
+
+.done {
+    position: absolute;
+    background: #254130d0;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 80%;
+    align-self: center;
+    border-radius: 15%;
+
+}
